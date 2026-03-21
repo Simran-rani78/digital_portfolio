@@ -154,8 +154,8 @@ const styles = {
         position: 'absolute',
         top: '1rem',
         right: '1rem',
-        backgroundColor: '#4f46e5',
-        color: 'white',
+        backgroundColor: '#38bdf8',
+        color: '#020617',
         padding: '0.4rem 1rem',
         borderRadius: '2rem',
         fontSize: '0.8rem',
@@ -206,8 +206,8 @@ const styles = {
         flex: 1,
         textAlign: 'center',
         padding: '0.75rem',
-        backgroundColor: '#4f46e5',
-        color: 'white',
+        backgroundColor: '#38bdf8',
+        color: '#020617',
         borderRadius: '0.5rem',
         fontWeight: '600',
         fontSize: '0.9rem',
@@ -245,9 +245,9 @@ const styles = {
         transition: 'all 0.3s ease',
     },
     activeFilterBtn: {
-        backgroundColor: '#4f46e5',
-        color: 'white',
-        borderColor: '#4f46e5',
+        backgroundColor: '#38bdf8',
+        color: '#020617',
+        borderColor: '#38bdf8',
     }
 };
 

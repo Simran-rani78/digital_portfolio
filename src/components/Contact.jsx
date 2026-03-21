@@ -108,7 +108,8 @@ const Contact = () => {
                                     ...styles.submitBtn,
                                     opacity: status === 'sending' ? 0.7 : 1,
                                     cursor: status === 'sending' ? 'not-allowed' : 'pointer',
-                                    backgroundColor: status === 'success' ? '#10b981' : status === 'error' ? '#ef4444' : '#4f46e5',
+                                    backgroundColor: status === 'success' ? '#10b981' : status === 'error' ? '#ef4444' : '#38bdf8',
+                                    color: (status === 'success' || status === 'error') ? 'white' : '#020617',
                                 }}
                                 className="submit-btn"
                                 disabled={status === 'sending'}
@@ -247,7 +248,7 @@ styleSheet.innerText = `
     box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.1);
     background-color: rgba(255, 255, 255, 0.05) !important;
   }
-  .submit-btn:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4); }
+  .submit-btn:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(56, 189, 248, 0.4); }
   .hover-text:hover { color: #38bdf8 !important; }
   .social-btn:hover {
     background-color: #38bdf8 !important;
