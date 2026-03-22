@@ -7,10 +7,10 @@ const Projects = () => {
 
     const projects = [
         {
-            title: 'AI Pet Adoption',
-            description: 'An AI-powered platform designed to facilitate pet adoption, helping users find their perfect pet match through intelligent matching and recommendations.',
-            techStack: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
-            category: ['Full Stack', 'Web App'],
+            title: 'PetBot - AI Pet Advisor',
+            description: 'A web-based chatbot that provides interactive advice about pets, adoption, and care tips using Google\'s Gemini AI.',
+            techStack: ['Python', 'Gemini AI', 'API Integration'],
+            category: ['API Integration', 'Web App', 'Full Stack'],
             github: 'https://github.com/Simran-rani78/AI-Pet-Adoption',
             live: 'https://ai-pet-adoption.onrender.com/',
             image: 'https://images.unsplash.com/photo-1543852786-1cf6624b9987?auto=format&fit=crop&w=600&q=80',
